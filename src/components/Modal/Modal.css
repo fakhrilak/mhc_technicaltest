@@ -1,0 +1,82 @@
+.modal-wrapper {
+	position: fixed;
+	vertical-align: middle;
+	top: 15%;
+	left: 30%;
+	right: 30%;
+	z-index: 100;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin: auto;
+	background-color: black;
+	color: black;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 3px;
+}
+
+.modal-header {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 20px;
+	text-align: right;
+}
+
+.modal-header h3 {
+	color: white;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.modal-body {
+	padding: 10px 15px;
+	text-align: center;
+	border-color: black;
+	border-width: 3px;
+}
+
+.modal-footer {
+	background: #263238;
+	height: 35px;
+	padding: 15px;
+}
+
+.close-modal-btn {
+	color: white;
+	cursor: pointer;
+	float: right;
+	font-size: 30px;
+	margin: 0;
+}
+
+.close {
+	cursor: pointer;
+	color: whitesmoke;
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:480px){
+	.modal-wrapper {
+		position: fixed;
+		vertical-align: middle;
+		top: 15%;
+		left: 15%;
+		right: 15%;
+		z-index: 100;
+		width: auto;
+		height: auto;
+		overflow: auto;
+		margin: auto;
+		background-color: #3399ff;
+		color: white;
+		border-radius: 10px;
+	}
+}
