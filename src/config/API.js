@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const url = "http://192.168.10.160:5006"
+export const url = "https://mhc-be-fakhril.zilog.tech"
 export const API = axios.create({baseURL: url+`/api/v1/mhc`});
 // Alter defaults after instance has been created
 export const setAuthToken = (token) => {
